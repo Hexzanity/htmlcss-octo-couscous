@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Hexzy
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>INFORMATION TECHNOLOGY COVID EMERGENCY</h1>
+    <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div class="log">    
+        <h2>LOGIN</h2>
+        <br>
+        <input type="text" id="U" placeholder="Username" maxlength="10" title="Alphanumeric ">
+        <br><br>
+        <input type="Password" id="P" placeholder="Password" maxlength="8">
+        <br><br>
+        <label>Remember Me</b></label> <input type="Checkbox" id="CB">
+            <button id="Button" onclick="login()">Login</button>
+        <br><br><br>
+        <a href="#">Forgot Password?</href>
+</div>
+    <script>
+        function login(){
+            var user = document.getElementById("U").value;
+            var password = document.getElementById("P").value;
+                if(user == "hector" && password == "herrera"){
+                    window.location.assign("ViewRecord.html");
+                    alert("Log in Successfully");
+                }
+                else{
+                    alert("Wrong Username or Password");
+                    return;
+                }
+        }
+    </script>
+</body>
+</html>

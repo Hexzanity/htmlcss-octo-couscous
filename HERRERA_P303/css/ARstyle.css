@@ -1,0 +1,82 @@
+body{
+    background-color:white;
+    font-family: Arial;
+    background-image: url(../image/IT.png);
+    position: 0% 50%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 500px;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+h1{
+    text-transform:uppercase;
+    border:solid;
+    margin:auto;
+    border-style:double;
+    text-align:center;
+    color:black;
+    background-color:green;
+}
+h2{
+    text-align: center;
+    color:WHITE;
+    border:double;
+    background-color: black;
+    width: 420px;
+    height: 50;
+    margin: auto;
+}
+.fillout{
+    text-transform: uppercase;
+    width: 420px;
+    height: 220px; 
+    margin:auto;  
+    padding: 50px;  
+    background: rgba(255,255,255,.5);  
+    border: solid rgba(255,255,255,.5);
+    border-radius: 60px ; 
+}
+#FN{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border:double;  
+    border-radius: 100px;  
+    padding-left: 8px; 
+}
+#Add{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border:double;  
+    border-radius: 100px;  
+    padding-left: 8px; 
+}
+#CN{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border:double;  
+    border-radius: 100px;  
+    padding-left: 8px; 
+}
+#Temp{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border:double;  
+    border-radius: 100px;  
+    padding-left: 8px; 
+}
+#click{
+    width: 60px;  
+    height: 30px;
+    font-weight: bold;
+    color:red;
+    position:fixed;
+    left: 48%;
+    margin-left:auto;
+    margin-top: -.5em;
+}
